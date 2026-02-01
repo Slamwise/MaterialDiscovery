@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.claude/
+data/
+models/
+cif_files/
+*.sqlite
+*.log
+novel_stable_candidates.json

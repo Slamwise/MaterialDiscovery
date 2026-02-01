@@ -1,0 +1,7 @@
+numpy>=1.24
+scipy>=1.11
+scikit-learn>=1.3
+lammps>=2023.8.2
+# ML-IAP (install one or both):
+# mace-torch>=0.3
+# nequip>=0.5
