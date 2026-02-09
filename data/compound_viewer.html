@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Prometheus — Materials Discovery Viewer</title>
+<script src="https://3Dmol.org/build/3Dmol-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg-primary: #0d1117; --bg-secondary: #161b22; --bg-tertiary: #1c2128;
+    --border: #30363d; --border-light: #21262d;
+    --text-primary: #e6edf3; --text-secondary: #8b949e; --text-muted: #484f58;
+    --accent: #58a6ff; --accent-dim: #1f6feb; --green: #3fb950; --red: #f85149;
+    --orange: #d29922; --purple: #bc8cff;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Segoe UI',system-ui,-apple-system,sans-serif; background:var(--bg-primary); color:var(--text-primary); height:100vh; display:flex; flex-direction:column; overflow:hidden; }
+
+  /* ─── Header ─── */
+  header { display:flex; align-items:center; justify-content:space-between; padding:10px 20px; background:var(--bg-secondary); border-bottom:1px solid var(--border); flex-shrink:0; }
+  header .logo { display:flex; align-items:center; gap:10px; }
+  header .logo h1 { font-size:16px; font-weight:700; color:var(--accent); letter-spacing:-0.3px; }
+  header .logo .subtitle { font-size:12px; color:var(--text-muted); }
+  .nav-controls { display:flex; align-items:center; gap:8px; }
+  .nav-controls button { background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); padding:5px 14px; border-radius:6px; cursor:pointer; font-size:13px; }
+  .nav-controls button:hover:not(:disabled) { background:var(--border); color:var(--text-primary); }
+  .nav-controls button:disabled { opacity:.35; cursor:default; }
+  .nav-controls .counter { font-size:14px; color:var(--text-primary); font-weight:600; min-width:80px; text-align:center; }
+  .keyboard-hint { font-size:11px; color:var(--text-muted); margin-left:12px; }
+
+  /* ─── Main layout ─── */
+  .main { display:flex; flex:1; overflow:hidden; }
+
+  /* ─── Sidebar ─── */
+  .sidebar { width:280px; min-width:280px; background:var(--bg-secondary); border-right:1px solid var(--border); display:flex; flex-direction:column; }
+  .search-box { padding:8px 12px; border-bottom:1px solid var(--border); }
+  .search-box input { width:100%; padding:6px 10px; background:var(--bg-primary); border:1px solid var(--border); border-radius:6px; color:var(--text-primary); font-size:12px; outline:none; }
+  .search-box input:focus { border-color:var(--accent); }
+  .sort-bar { display:flex; gap:3px; padding:6px 12px; border-bottom:1px solid var(--border); flex-wrap:wrap; }
+  .sort-bar button { background:none; border:1px solid var(--border); color:var(--text-muted); padding:2px 7px; border-radius:4px; font-size:10px; cursor:pointer; }
+  .sort-bar button.active { color:var(--accent); border-color:var(--accent); }
+  .compound-list { flex:1; overflow-y:auto; }
+  .compound-item { padding:8px 12px; border-bottom:1px solid var(--border-light); cursor:pointer; transition:background .1s; }
+  .compound-item:hover { background:var(--bg-tertiary); }
+  .compound-item.active { background:rgba(31,111,235,.12); border-left:3px solid var(--accent); }
+  .compound-item .formula { font-size:13px; font-weight:600; }
+  .compound-item .meta { font-size:10px; color:var(--text-secondary); margin-top:1px; }
+
+  /* ─── Content area ─── */
+  .content { flex:1; display:flex; flex-direction:column; overflow:hidden; }
+
+  /* ─── Tab bar ─── */
+  .tab-bar { display:flex; background:var(--bg-secondary); border-bottom:1px solid var(--border); flex-shrink:0; }
+  .tab-bar button { background:none; border:none; color:var(--text-secondary); padding:10px 18px; font-size:13px; cursor:pointer; border-bottom:2px solid transparent; transition:all .15s; }
+  .tab-bar button:hover { color:var(--text-primary); background:var(--bg-tertiary); }
+  .tab-bar button.active { color:var(--accent); border-bottom-color:var(--accent); }
+
+  /* ─── Panels ─── */
+  .panels { flex:1; overflow:hidden; position:relative; }
+  .panel { position:absolute; inset:0; overflow-y:auto; padding:20px; display:none; }
+  .panel.active { display:block; }
+
+  /* ── Overview panel ── */
+  .overview-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .card { background:var(--bg-secondary); border:1px solid var(--border); border-radius:8px; padding:16px; }
+  .card h3 { font-size:13px; color:var(--text-secondary); margin-bottom:12px; text-transform:uppercase; letter-spacing:.5px; }
+  .formula-big { font-size:28px; font-weight:700; margin-bottom:4px; }
+  .formula-big sub { font-size:18px; }
+  .badge { display:inline-block; padding:3px 10px; border-radius:12px; font-size:11px; font-weight:600; }
+  .badge-stable { background:rgba(35,134,54,.2); color:var(--green); border:1px solid rgba(35,134,54,.3); }
+  .badge-crystal { background:rgba(31,111,235,.15); color:var(--accent); border:1px solid rgba(31,111,235,.25); }
+  .stat-grid { display:grid; grid-template-columns:1fr 1fr; gap:0; }
+  .stat-cell { padding:10px 0; border-bottom:1px solid var(--border-light); }
+  .stat-cell:nth-child(odd) { padding-right:12px; border-right:1px solid var(--border-light); }
+  .stat-cell:nth-child(even) { padding-left:12px; }
+  .stat-label { font-size:11px; color:var(--text-muted); }
+  .stat-value { font-size:15px; font-weight:600; margin-top:2px; }
+  .stat-unit { font-size:11px; color:var(--text-secondary); font-weight:400; }
+
+  /* Composition bar */
+  .comp-bar-track { height:28px; border-radius:6px; overflow:hidden; display:flex; margin:8px 0; }
+  .comp-bar-seg { display:flex; align-items:center; justify-content:center; font-size:10px; font-weight:700; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,.6); }
+  .comp-legend { display:flex; flex-wrap:wrap; gap:10px; }
+  .comp-legend span { font-size:11px; display:flex; align-items:center; gap:5px; }
+  .comp-legend .dot { width:10px; height:10px; border-radius:3px; }
+
+  /* ── Structure panel ── */
+  .structure-layout { display:flex; gap:16px; height:100%; }
+  .viewer-box { flex:1; background:var(--bg-secondary); border:1px solid var(--border); border-radius:8px; overflow:hidden; position:relative; min-height:450px; }
+  #viewer3d { width:100%; height:100%; }
+  .viewer-controls { position:absolute; top:10px; right:10px; display:flex; flex-direction:column; gap:4px; z-index:10; }
+  .viewer-controls button { background:rgba(13,17,23,.85); border:1px solid var(--border); color:var(--text-secondary); padding:5px 9px; border-radius:4px; font-size:11px; cursor:pointer; }
+  .viewer-controls button:hover { color:var(--text-primary); background:rgba(22,27,34,.95); }
+  .viewer-controls button.active { color:var(--accent); border-color:var(--accent); }
+  .sites-table { width:320px; min-width:320px; }
+  .sites-table table { width:100%; font-size:11px; border-collapse:collapse; }
+  .sites-table th { text-align:left; padding:6px 8px; background:var(--bg-secondary); color:var(--text-muted); font-size:10px; text-transform:uppercase; position:sticky; top:0; }
+  .sites-table td { padding:4px 8px; border-bottom:1px solid var(--border-light); }
+  .element-dot { width:8px; height:8px; border-radius:50%; display:inline-block; margin-right:4px; vertical-align:middle; }
+
+  /* ── XRD panel ── */
+  .xrd-container { max-width:900px; height:400px; margin:0 auto; }
+
+  /* ── Lattice panel ── */
+  .lattice-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; max-width:700px; }
+  .lattice-cell { background:var(--bg-secondary); border:1px solid var(--border); border-radius:8px; padding:16px; text-align:center; }
+  .lattice-cell .label { font-size:11px; color:var(--text-muted); margin-bottom:4px; }
+  .lattice-cell .value { font-size:22px; font-weight:700; }
+  .lattice-cell .unit { font-size:12px; color:var(--text-secondary); }
+  .lattice-matrix { margin-top:20px; }
+  .lattice-matrix table { border-collapse:collapse; font-family:'Consolas','SF Mono',monospace; font-size:13px; }
+  .lattice-matrix td { padding:6px 16px; border:1px solid var(--border); text-align:right; }
+  .lattice-matrix th { padding:6px 16px; background:var(--bg-secondary); color:var(--text-muted); font-size:11px; }
+
+  /* ── Compare panel ── */
+  .compare-info { color:var(--text-secondary); font-size:13px; line-height:1.8; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <h1>Prometheus</h1>
+    <span class="subtitle">Materials Discovery Viewer</span>
+  </div>
+  <div class="nav-controls">
+    <button id="btnFirst" title="Home">|&laquo;</button>
+    <button id="btnPrev" title="Previous">&lsaquo;</button>
+    <div class="counter"><span id="curIdx">-</span> / <span id="totIdx">-</span></div>
+    <button id="btnNext" title="Next">&rsaquo;</button>
+    <button id="btnLast" title="End">&raquo;|</button>
+    <span class="keyboard-hint">&larr; &rarr; to flip</span>
+  </div>
+</header>
+
+<div class="main">
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="search-box"><input id="searchInput" placeholder="Filter (e.g. Hf, Ta30)..." /></div>
+    <div class="sort-bar">
+      <button class="active" data-sort="index">#</button>
+      <button data-sort="energy">Energy</button>
+      <button data-sort="lattice">Lattice</button>
+      <button data-sort="density">Density</button>
+    </div>
+    <div class="compound-list" id="compoundList"></div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <div class="tab-bar">
+      <button class="active" data-tab="overview">Overview</button>
+      <button data-tab="structure">Structure</button>
+      <button data-tab="xrd">XRD</button>
+      <button data-tab="lattice">Lattice</button>
+    </div>
+    <div class="panels">
+      <!-- Overview -->
+      <div class="panel active" id="panel-overview"></div>
+      <!-- Structure -->
+      <div class="panel" id="panel-structure">
+        <div class="structure-layout">
+          <div class="viewer-box">
+            <div id="viewer3d"></div>
+            <div class="viewer-controls">
+              <button id="btnBallStick" class="active" title="Ball & Stick">Ball+Stick</button>
+              <button id="btnSphere" title="Space-fill">Sphere</button>
+              <button id="btnPolyhedra" title="Polyhedra">Polyhedra</button>
+              <button id="btnCell" class="active" title="Unit cell">Cell</button>
+              <button id="btnLabels" title="Atom labels">Labels</button>
+            </div>
+          </div>
+          <div class="sites-table card" id="sitesTable" style="overflow-y:auto;max-height:600px;"></div>
+        </div>
+      </div>
+      <!-- XRD -->
+      <div class="panel" id="panel-xrd">
+        <div class="card" style="margin-bottom:16px;">
+          <h3>Simulated X-Ray Diffraction Pattern</h3>
+          <p style="font-size:12px;color:var(--text-secondary);">Cu K&alpha; (&lambda; = 1.5406 &Aring;) — computed from relaxed CHGNet structure</p>
+        </div>
+        <div class="xrd-container"><canvas id="xrdChart"></canvas></div>
+      </div>
+      <!-- Lattice -->
+      <div class="panel" id="panel-lattice"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ─── Constants ───
+const EL_COLORS = {
+  Hf:'#4fc3f7', Zr:'#81c784', Ta:'#ffb74d', C:'#bdbdbd', N:'#ef5350',
+  Ti:'#ce93d8', Nb:'#a1887f', W:'#90a4ae', Mo:'#f48fb1', V:'#80cbc4',
+  Cr:'#fff176', B:'#ffcc80', O:'#ff8a65'
+};
+const EL_RADII = { Hf:1.75, Zr:1.75, Ta:1.70, C:0.77, N:0.75, Ti:1.60, Nb:1.64, W:1.62, Mo:1.54, V:1.53, Cr:1.39, B:0.82, O:0.73 };
+const METALS = new Set(['Hf','Zr','Ta','Ti','Nb','W','Mo','V','Cr']);
+
+let candidates = [], filtered = [], currentIndex = 0;
+let viewer3d = null, xrdChart = null;
+let showCell = true, showLabels = false, viewStyle = 'ballstick';
+
+// ─── Data loading ───
+async function loadData() {
+  for (const path of ['novel_stable_candidates.json','../novel_stable_candidates.json']) {
+    try {
+      const r = await fetch(path);
+      if (r.ok) { candidates = await r.json(); break; }
+    } catch(e) {}
+  }
+  if (!candidates.length) {
+    document.getElementById('panel-overview').innerHTML = '<div class="card"><h3>No Data</h3><p style="margin-top:8px;color:var(--text-secondary)">Place novel_stable_candidates.json in this directory or parent, then serve with <code>python -m http.server 8000</code></p></div>';
+    return;
+  }
+  candidates.forEach((c,i) => { c._idx = i; if (!c.id) c.id = i+1; });
+  filtered = [...candidates];
+  buildList();
+  showCompound(0);
+}
+
+// ─── Helpers ───
+function formula(comp) {
+  return Object.entries(comp).filter(([,v])=>v>0.005).map(([el,v])=>el+(v<0.995?Math.round(v*100):'')).join('');
+}
+function formulaHTML(comp) {
+  return Object.entries(comp).filter(([,v])=>v>0.005).map(([el,v])=>el+(v<0.995?'<sub>'+Math.round(v*100)+'</sub>':'')).join('');
+}
+function metalFrac(comp) {
+  let m=0,t=0; for(const[el,v] of Object.entries(comp)) if(v>0.005){t+=v;if(METALS.has(el))m+=v;} return t?m/t:0;
+}
+
+// ─── Sidebar ───
+function buildList() {
+  const list = document.getElementById('compoundList');
+  list.innerHTML = '';
+  filtered.forEach((c,i) => {
+    const d = document.createElement('div');
+    d.className = 'compound-item'+(i===currentIndex?' active':'');
+    const density = c.density_g_per_cm3 ? `${c.density_g_per_cm3.toFixed(1)} g/cm³` : '';
+    d.innerHTML = `<div class="formula">${formula(c.composition)}</div><div class="meta">${c.formation_energy_eV_per_atom.toFixed(3)} eV/atom${density?' · '+density:''}</div>`;
+    d.onclick = () => showCompound(i);
+    list.appendChild(d);
+  });
+}
+
+function applySort(sort) {
+  document.querySelectorAll('.sort-bar button').forEach(b=>b.classList.toggle('active',b.dataset.sort===sort));
+  const sorters = {
+    index:(a,b)=>a._idx-b._idx,
+    energy:(a,b)=>a.formation_energy_eV_per_atom-b.formation_energy_eV_per_atom,
+    lattice:(a,b)=>a.relaxed_lattice_constant_A-b.relaxed_lattice_constant_A,
+    density:(a,b)=>(b.density_g_per_cm3||0)-(a.density_g_per_cm3||0),
+  };
+  filtered.sort(sorters[sort]||sorters.index);
+  currentIndex=0; buildList(); showCompound(0);
+}
+
+function applyFilter(q) {
+  q=q.toLowerCase().trim();
+  filtered = q ? candidates.filter(c=>formula(c.composition).toLowerCase().includes(q)) : [...candidates];
+  currentIndex=0; buildList(); if(filtered.length) showCompound(0);
+}
+
+// ─── Tabs ───
+document.querySelectorAll('.tab-bar button').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tab-bar button').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('panel-'+btn.dataset.tab).classList.add('active');
+    if (btn.dataset.tab==='structure') setTimeout(()=>{ if(viewer3d) viewer3d.resize(); },50);
+  };
+});
+
+// ─── Show compound ───
+function showCompound(idx) {
+  if(!filtered.length) return;
+  currentIndex = Math.max(0,Math.min(idx,filtered.length-1));
+  const c = filtered[currentIndex];
+  document.getElementById('curIdx').textContent = currentIndex+1;
+  document.getElementById('totIdx').textContent = filtered.length;
+  document.getElementById('btnPrev').disabled = currentIndex===0;
+  document.getElementById('btnFirst').disabled = currentIndex===0;
+  document.getElementById('btnNext').disabled = currentIndex===filtered.length-1;
+  document.getElementById('btnLast').disabled = currentIndex===filtered.length-1;
+  document.querySelectorAll('.compound-item').forEach((el,i)=>el.classList.toggle('active',i===currentIndex));
+  const active = document.querySelector('.compound-item.active');
+  if(active) active.scrollIntoView({block:'nearest'});
+  renderOverview(c);
+  renderStructure(c);
+  renderXRD(c);
+  renderLattice(c);
+}
+
+// ─── Overview ───
+function renderOverview(c) {
+  const comp = c.composition;
+  const active = Object.entries(comp).filter(([,v])=>v>0.005);
+  const mf = metalFrac(comp);
+  const sg = c.spacegroup;
+
+  let barHTML='', legHTML='';
+  for(const[el,v] of active){
+    const pct=(v*100).toFixed(1), col=EL_COLORS[el]||'#888';
+    barHTML+=`<div class="comp-bar-seg" style="width:${pct}%;background:${col}">${v>0.08?el+' '+Math.round(v*100)+'%':''}</div>`;
+    legHTML+=`<span><span class="dot" style="background:${col}"></span>${el} ${pct}%</span>`;
+  }
+
+  const sgText = sg ? `${sg.symbol} (#${sg.number})` : 'N/A';
+  const csText = sg ? sg.crystal_system : 'Cubic (assumed)';
+
+  document.getElementById('panel-overview').innerHTML = `
+    <div class="overview-grid">
+      <div class="card" style="grid-column:1/3">
+        <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+          <div class="formula-big">${formulaHTML(comp)}</div>
+          <span class="badge badge-stable">Predicted Stable</span>
+          <span class="badge badge-crystal">${csText}</span>
+          ${sg?`<span class="badge badge-crystal">${sg.symbol}</span>`:''}
+        </div>
+        <div class="comp-bar-track" style="margin-top:16px">${barHTML}</div>
+        <div class="comp-legend">${legHTML}</div>
+      </div>
+
+      <div class="card">
+        <h3>Energetics</h3>
+        <div class="stat-grid">
+          <div class="stat-cell">
+            <div class="stat-label">Formation Energy</div>
+            <div class="stat-value">${c.formation_energy_eV_per_atom.toFixed(4)} <span class="stat-unit">eV/atom</span></div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Energy Above Hull</div>
+            <div class="stat-value">${c.e_above_hull_eV_per_atom!=null?c.e_above_hull_eV_per_atom.toFixed(4):'N/A'} <span class="stat-unit">eV/atom</span></div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Metal Fraction</div>
+            <div class="stat-value">${(mf*100).toFixed(1)} <span class="stat-unit">%</span></div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Nonmetal Fraction</div>
+            <div class="stat-value">${((1-mf)*100).toFixed(1)} <span class="stat-unit">%</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Structure</h3>
+        <div class="stat-grid">
+          <div class="stat-cell">
+            <div class="stat-label">Space Group</div>
+            <div class="stat-value" style="font-size:13px">${sgText}</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Crystal System</div>
+            <div class="stat-value" style="font-size:13px">${csText}</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Density</div>
+            <div class="stat-value">${c.density_g_per_cm3?c.density_g_per_cm3.toFixed(3):'N/A'} <span class="stat-unit">g/cm³</span></div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Volume</div>
+            <div class="stat-value">${c.lattice?c.lattice.volume.toFixed(1):'N/A'} <span class="stat-unit">ų</span></div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Sites</div>
+            <div class="stat-value">${c.n_sites||'N/A'}</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-label">Lattice a</div>
+            <div class="stat-value">${c.relaxed_lattice_constant_A.toFixed(3)} <span class="stat-unit">&Aring;</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="grid-column:1/3">
+        <h3>XRD Preview</h3>
+        ${c.xrd_peaks && c.xrd_peaks.length ?
+          `<div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:4px;">${c.xrd_peaks.slice(0,8).map(p=>`<div style="text-align:center;"><div style="background:var(--accent);width:3px;height:${Math.round(p.intensity*0.4)}px;margin:0 auto;border-radius:2px;"></div><div style="font-size:10px;color:var(--text-muted);margin-top:2px;">${p.two_theta.toFixed(1)}&deg;</div></div>`).join('')}</div>`
+          : '<p style="color:var(--text-muted);font-size:12px;margin-top:8px;">XRD data not available — run updated prescreener to generate</p>'}
+      </div>
+    </div>
+  `;
+}
+
+// ─── 3D Structure ───
+function renderStructure(c) {
+  const container = document.getElementById('viewer3d');
+  if(viewer3d) { viewer3d.clear(); viewer3d = null; }
+
+  // If we have actual site data from the enriched JSON
+  if (c.sites && c.sites.length && c.lattice_matrix) {
+    renderFromSites(c, container);
+  } else {
+    renderFromComposition(c, container);
+  }
+}
+
+function renderFromSites(c, container) {
+  // Build XYZ from actual relaxed atomic positions
+  const sites = c.sites;
+  let xyz = sites.length + '\n' + formula(c.composition) + '\n';
+  for (const s of sites) {
+    xyz += `${s.element}  ${s.x}  ${s.y}  ${s.z}\n`;
+  }
+
+  viewer3d = $3Dmol.createViewer(container, {backgroundColor:'#0d1117'});
+  viewer3d.addModel(xyz, 'xyz');
+  applyViewStyle();
+
+  // Unit cell from lattice matrix
+  if (showCell && c.lattice_matrix) {
+    const m = c.lattice_matrix;
+    const o = [0,0,0];
+    const a = m[0], b = m[1], cc = m[2];
+    const verts = [
+      o,
+      a,
+      b,
+      cc,
+      [a[0]+b[0], a[1]+b[1], a[2]+b[2]],
+      [a[0]+cc[0], a[1]+cc[1], a[2]+cc[2]],
+      [b[0]+cc[0], b[1]+cc[1], b[2]+cc[2]],
+      [a[0]+b[0]+cc[0], a[1]+b[1]+cc[1], a[2]+b[2]+cc[2]],
+    ];
+    const edges = [[0,1],[0,2],[0,3],[1,4],[1,5],[2,4],[2,6],[3,5],[3,6],[4,7],[5,7],[6,7]];
+    for (const [i,j] of edges) {
+      viewer3d.addLine({start:{x:verts[i][0],y:verts[i][1],z:verts[i][2]}, end:{x:verts[j][0],y:verts[j][1],z:verts[j][2]}, color:'#30363d', linewidth:1.5});
+    }
+  }
+
+  viewer3d.zoomTo();
+  viewer3d.zoom(0.8);
+  viewer3d.render();
+
+  // Sites table
+  renderSitesTable(c);
+}
+
+function renderFromComposition(c, container) {
+  // Fallback: generate a rock-salt model from composition
+  const comp = c.composition;
+  const active = Object.entries(comp).filter(([,v])=>v>0.005);
+  const metalEls = active.filter(([el])=>METALS.has(el));
+  const nmEls = active.filter(([el])=>!METALS.has(el));
+  const n = 3, scale = 4.5;
+  let atoms = [];
+  for(let ix=0;ix<n;ix++) for(let iy=0;iy<n;iy++) for(let iz=0;iz<n;iz++) {
+    atoms.push({elem:pickW(metalEls.length?metalEls:active,ix*n*n+iy*n+iz), x:ix*scale, y:iy*scale, z:iz*scale});
+    if(nmEls.length) atoms.push({elem:pickW(nmEls,ix*n*n+iy*n+iz+1000), x:(ix+.5)*scale, y:(iy+.5)*scale, z:(iz+.5)*scale});
+  }
+  let xyz = atoms.length+'\n'+formula(comp)+'\n';
+  for(const a of atoms) xyz+=`${a.elem}  ${a.x.toFixed(4)}  ${a.y.toFixed(4)}  ${a.z.toFixed(4)}\n`;
+
+  viewer3d = $3Dmol.createViewer(container,{backgroundColor:'#0d1117'});
+  viewer3d.addModel(xyz,'xyz');
+  applyViewStyle();
+
+  if(showCell){
+    const L=n*scale;
+    const edges=[[[0,0,0],[L,0,0]],[[0,0,0],[0,L,0]],[[0,0,0],[0,0,L]],[[L,0,0],[L,L,0]],[[L,0,0],[L,0,L]],[[0,L,0],[L,L,0]],[[0,L,0],[0,L,L]],[[0,0,L],[L,0,L]],[[0,0,L],[0,L,L]],[[L,L,0],[L,L,L]],[[L,0,L],[L,L,L]],[[0,L,L],[L,L,L]]];
+    for(const[a,b] of edges) viewer3d.addLine({start:{x:a[0],y:a[1],z:a[2]},end:{x:b[0],y:b[1],z:b[2]},color:'#30363d',linewidth:1.5});
+  }
+
+  viewer3d.zoomTo(); viewer3d.zoom(0.8); viewer3d.render();
+  renderSitesTable(c);
+}
+
+function applyViewStyle() {
+  if(!viewer3d) return;
+  const colorScheme = {prop:'elem', map:EL_COLORS};
+  if(viewStyle==='ballstick') {
+    viewer3d.setStyle({},{sphere:{scale:0.3,colorscheme:colorScheme},stick:{radius:0.08,colorscheme:colorScheme}});
+  } else if(viewStyle==='sphere') {
+    viewer3d.setStyle({},{sphere:{scale:0.6,colorscheme:colorScheme}});
+  } else {
+    viewer3d.setStyle({},{sphere:{scale:0.25,colorscheme:colorScheme},stick:{radius:0.12,colorscheme:colorScheme}});
+  }
+
+  if(showLabels) {
+    const atoms = viewer3d.getModel(0).selectedAtoms({});
+    // Add labels for a subset to avoid clutter
+    const step = Math.max(1, Math.floor(atoms.length/20));
+    for(let i=0; i<atoms.length; i+=step) {
+      viewer3d.addLabel(atoms[i].elem, {
+        position:atoms[i], fontSize:10, fontColor:'#c9d1d9',
+        backgroundColor:'rgba(13,17,23,0.7)', backgroundOpacity:0.7,
+        borderThickness:0, inFront:true
+      });
+    }
+  }
+  viewer3d.render();
+}
+
+function renderSitesTable(c) {
+  const panel = document.getElementById('sitesTable');
+  if (!c.sites || !c.sites.length) {
+    panel.innerHTML = '<h3>Atomic Sites</h3><p style="margin-top:8px;color:var(--text-muted);font-size:12px;">Site data not available — run updated prescreener</p>';
+    return;
+  }
+  // Count elements
+  const counts = {};
+  for(const s of c.sites) counts[s.element] = (counts[s.element]||0)+1;
+  let html = '<h3>Atomic Sites</h3>';
+  html += '<div style="margin:8px 0;font-size:11px;color:var(--text-secondary);">';
+  for(const[el,n] of Object.entries(counts)) html += `<span class="element-dot" style="background:${EL_COLORS[el]||'#888'}"></span>${el}: ${n} &nbsp; `;
+  html += `<br>Total: ${c.sites.length} sites</div>`;
+  html += '<table><tr><th>#</th><th>Elem</th><th>x</th><th>y</th><th>z</th></tr>';
+  for(let i=0;i<Math.min(c.sites.length,50);i++){
+    const s=c.sites[i];
+    html+=`<tr><td>${i+1}</td><td><span class="element-dot" style="background:${EL_COLORS[s.element]||'#888'}"></span>${s.element}</td><td>${s.frac?s.frac[0].toFixed(3):s.x.toFixed(2)}</td><td>${s.frac?s.frac[1].toFixed(3):s.y.toFixed(2)}</td><td>${s.frac?s.frac[2].toFixed(3):s.z.toFixed(2)}</td></tr>`;
+  }
+  if(c.sites.length>50) html+=`<tr><td colspan=5 style="color:var(--text-muted);text-align:center;">... ${c.sites.length-50} more sites</td></tr>`;
+  html+='</table>';
+  panel.innerHTML = html;
+}
+
+// ─── XRD ───
+function renderXRD(c) {
+  const canvas = document.getElementById('xrdChart');
+  if(xrdChart) { xrdChart.destroy(); xrdChart=null; }
+
+  if(!c.xrd_peaks || !c.xrd_peaks.length) {
+    canvas.parentElement.innerHTML = '<canvas id="xrdChart"></canvas><p style="text-align:center;color:var(--text-muted);margin-top:40px;">XRD data not available for this compound.<br>Run the updated prescreener to generate XRD patterns.</p>';
+    return;
+  }
+
+  // Build full pattern from peaks (Gaussian broadening)
+  const peaks = c.xrd_peaks;
+  const twoTheta = [], intensity = [];
+  for(let t=10; t<=90; t+=0.1) {
+    let val = 0;
+    for(const p of peaks) {
+      const sigma = 0.3;
+      val += p.intensity * Math.exp(-0.5*((t-p.two_theta)/sigma)**2);
+    }
+    twoTheta.push(t.toFixed(1));
+    intensity.push(val);
+  }
+
+  xrdChart = new Chart(canvas, {
+    type:'line',
+    data:{
+      labels:twoTheta,
+      datasets:[{
+        data:intensity, borderColor:'#58a6ff', borderWidth:1.5,
+        fill:true, backgroundColor:'rgba(88,166,255,0.1)',
+        pointRadius:0, tension:0
+      }]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{
+        callbacks:{title:ctx=>`2θ = ${ctx[0].label}°`, label:ctx=>`Intensity: ${ctx.parsed.y.toFixed(1)}`}
+      }},
+      scales:{
+        x:{title:{display:true,text:'2θ (degrees)',color:'#8b949e'},ticks:{color:'#8b949e',maxTicksLimit:15},grid:{color:'#21262d'}},
+        y:{title:{display:true,text:'Intensity (a.u.)',color:'#8b949e'},ticks:{color:'#8b949e'},grid:{color:'#21262d'}}
+      }
+    }
+  });
+}
+
+// ─── Lattice ───
+function renderLattice(c) {
+  const panel = document.getElementById('panel-lattice');
+  const lat = c.lattice;
+  if(!lat) {
+    panel.innerHTML = '<div class="card"><h3>Lattice Parameters</h3><p style="margin-top:8px;color:var(--text-muted);">Detailed lattice data not available — run updated prescreener</p></div>';
+    return;
+  }
+
+  let matHTML = '';
+  if(c.lattice_matrix){
+    matHTML = '<div class="lattice-matrix"><h3 style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">Lattice Vectors (&Aring;)</h3><table><tr><th></th><th>x</th><th>y</th><th>z</th></tr>';
+    ['a','b','c'].forEach((label,i) => {
+      const row = c.lattice_matrix[i];
+      matHTML += `<tr><td><strong>${label}</strong></td>${row.map(v=>`<td>${v.toFixed(4)}</td>`).join('')}</tr>`;
+    });
+    matHTML += '</table></div>';
+  }
+
+  panel.innerHTML = `
+    <div class="card" style="margin-bottom:16px;">
+      <h3>Lattice Parameters</h3>
+      <div class="lattice-grid" style="margin-top:12px;">
+        <div class="lattice-cell"><div class="label">a</div><div class="value">${lat.a.toFixed(4)}</div><div class="unit">&Aring;</div></div>
+        <div class="lattice-cell"><div class="label">b</div><div class="value">${lat.b.toFixed(4)}</div><div class="unit">&Aring;</div></div>
+        <div class="lattice-cell"><div class="label">c</div><div class="value">${lat.c.toFixed(4)}</div><div class="unit">&Aring;</div></div>
+        <div class="lattice-cell"><div class="label">&alpha;</div><div class="value">${lat.alpha.toFixed(2)}</div><div class="unit">&deg;</div></div>
+        <div class="lattice-cell"><div class="label">&beta;</div><div class="value">${lat.beta.toFixed(2)}</div><div class="unit">&deg;</div></div>
+        <div class="lattice-cell"><div class="label">&gamma;</div><div class="value">${lat.gamma.toFixed(2)}</div><div class="unit">&deg;</div></div>
+      </div>
+    </div>
+    <div class="card" style="margin-bottom:16px;">
+      <h3>Volume &amp; Density</h3>
+      <div class="lattice-grid" style="margin-top:12px;">
+        <div class="lattice-cell"><div class="label">Volume</div><div class="value">${lat.volume.toFixed(2)}</div><div class="unit">&Aring;&sup3;</div></div>
+        <div class="lattice-cell"><div class="label">Density</div><div class="value">${c.density_g_per_cm3?c.density_g_per_cm3.toFixed(4):'N/A'}</div><div class="unit">g/cm&sup3;</div></div>
+        <div class="lattice-cell"><div class="label">Sites</div><div class="value">${c.n_sites||'N/A'}</div><div class="unit"></div></div>
+      </div>
+    </div>
+    <div class="card">${matHTML||'<h3>Lattice Vectors</h3><p style="color:var(--text-muted);margin-top:8px;">Not available</p>'}</div>
+  `;
+}
+
+// ─── Viewer controls ───
+document.getElementById('btnBallStick').onclick = function(){ viewStyle='ballstick'; updateViewBtns(); renderStructure(filtered[currentIndex]); };
+document.getElementById('btnSphere').onclick = function(){ viewStyle='sphere'; updateViewBtns(); renderStructure(filtered[currentIndex]); };
+document.getElementById('btnPolyhedra').onclick = function(){ viewStyle='poly'; updateViewBtns(); renderStructure(filtered[currentIndex]); };
+document.getElementById('btnCell').onclick = function(){ showCell=!showCell; this.classList.toggle('active'); renderStructure(filtered[currentIndex]); };
+document.getElementById('btnLabels').onclick = function(){ showLabels=!showLabels; this.classList.toggle('active'); renderStructure(filtered[currentIndex]); };
+function updateViewBtns(){ document.getElementById('btnBallStick').classList.toggle('active',viewStyle==='ballstick'); document.getElementById('btnSphere').classList.toggle('active',viewStyle==='sphere'); document.getElementById('btnPolyhedra').classList.toggle('active',viewStyle==='poly'); }
+
+// ─── Navigation ───
+document.getElementById('btnPrev').onclick = () => showCompound(currentIndex-1);
+document.getElementById('btnNext').onclick = () => showCompound(currentIndex+1);
+document.getElementById('btnFirst').onclick = () => showCompound(0);
+document.getElementById('btnLast').onclick = () => showCompound(filtered.length-1);
+document.addEventListener('keydown', e => {
+  if(e.target.tagName==='INPUT') return;
+  if(e.key==='ArrowLeft') showCompound(currentIndex-1);
+  if(e.key==='ArrowRight') showCompound(currentIndex+1);
+});
+document.querySelectorAll('.sort-bar button').forEach(b=>{ b.onclick=()=>applySort(b.dataset.sort); });
+document.getElementById('searchInput').addEventListener('input', e=>applyFilter(e.target.value));
+
+function pickW(els,seed){ if(els.length===1)return els[0][0]; const t=els.reduce((s,[,v])=>s+v,0); let h=((seed*2654435761)>>>0)/4294967296,cum=0; for(const[el,v] of els){cum+=v/t;if(h<cum)return el;} return els[els.length-1][0]; }
+
+loadData();
+</script>
+</body>
+</html>

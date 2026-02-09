@@ -1,0 +1,4994 @@
+[
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.9
+    },
+    "formation_energy_eV_per_atom": -3.0524086952209473,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 18.00884748609145
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -2.941068649291992,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 18.05657077282964
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.8,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -2.527470588684082,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 19.26355913243842
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.9,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -2.424281120300293,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 19.284061959602152
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.9
+    },
+    "formation_energy_eV_per_atom": -10.089405059814453,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.878828028915537
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -9.743831634521484,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.57224568051089
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -10.316668510437012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.542575390914271
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.03609561920166,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.278439496300097
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.057609558105469,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.288927240608768
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.791121482849121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.36075169204692
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.6,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.753761291503906,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.227150517109433
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.7,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.809215545654297,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.096152212424549
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.8,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.410886764526367,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.603880257179993
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.9,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.880797386169434,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.837560099789037
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -10.089405059814453,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.878828028915537
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.743831634521484,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.57224568051089
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.316668510437012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.542575390914271
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.939431190490723,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.436917030302839
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.95711612701416,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.314967231325138
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.5,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.674139022827148,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.30431855378864
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.6,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.779170989990234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.185326265893588
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.7,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.410886764526367,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.603880257179993
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.8,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.880797386169434,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.837560099789037
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.018098831176758,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.704466069231746
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -10.057609558105469,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.288927240608768
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.4,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.791121482849121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.36075169204692
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.5,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.779170989990234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.185326265893588
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.6,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.684294700622559,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.199503518863137
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.7,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.880797386169434,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.837560099789037
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.018098831176758,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.704466069231746
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -10.03609561920166,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.278439496300097
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.95711612701416,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.314967231325138
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.753761291503906,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.227150517109433
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.684294700622559,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.199503518863137
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.880797386169434,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.837560099789037
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -10.239046096801758,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.65292828214839
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.951025009155273,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.324653291503946
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.705615997314453,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.04576889645539
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.618366241455078,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.158642829524911
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.6,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -10.316668510437012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.542575390914271
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.6,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.95711612701416,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.314967231325138
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.6,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.779170989990234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.185326265893588
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.7,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -10.03609561920166,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.278439496300097
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.7,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.753761291503906,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.227150517109433
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.8,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -10.089405059814453,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.878828028915537
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.8,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.95711612701416,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.314967231325138
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.8,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.880797386169434,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.837560099789037
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.9,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -10.089405059814453,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.878828028915537
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.0,
+      "Ta": 0.9,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.880797386169434,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.837560099789037
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.0,
+      "N": 0.9
+    },
+    "formation_energy_eV_per_atom": -9.322745323181152,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.843333274573876
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -8.824270248413086,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.110584832595903
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.226164817810059,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.230194682518855
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -8.953764915466309,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.106494006588157
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.019570350646973,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.730807792673447
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -8.906546592712402,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.96646144745274
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -8.868419647216797,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.913490959643054
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.7,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.788084983825684,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.92954463324424
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.8,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.708417892456055,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.515531379322107
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.9,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -9.85666275024414,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.331136260927805
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.744057655334473,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.599605895053672
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.742815971374512,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.561790368553758
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.513948440551758,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.496544934223017
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.500504493713379,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.491712909292115
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.24845027923584,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.196322237903724
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.6,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.234280586242676,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.21079403283165
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.7,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.987345695495605,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.950959719722652
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.8,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.167391777038574,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.646221277234632
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.915120124816895,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.541522654121273
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.966523170471191,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.550019778735145
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.944929122924805,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.613781079245129
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.701241493225098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.53180150811074
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.66756820678711,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.293042740373544
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.5,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.404150009155273,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.255652403922486
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.6,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.398566246032715,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.992758046459112
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.7,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.205303192138672,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.542718172284305
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.054949760437012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.538261607778212
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.017735481262207,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.509077527669442
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.811453819274902,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.417836750559465
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.690528869628906,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.433420855610839
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.459970474243164,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.322328130749167
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.563735008239746,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.062250248958835
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.450545310974121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.581852942745382
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.137540817260742,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.620893100947015
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.858992576599121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.699606969055534
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.845124244689941,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.256338969580563
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.605798721313477,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.14399355168925
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.548686981201172,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.202072842117396
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.5,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.433935165405273,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.796372381164248
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.987221717834473,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.728776213490175
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -10.018868446350098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.548697438645013
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.792299270629883,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.257714586011673
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.678829193115234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.133042505775556
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.443188667297363,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.858780601502344
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.6,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.987221717834473,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.728776213490175
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.6,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.786236763000488,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.260710129924535
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.6,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.678638458251953,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.341262394193068
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.6,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.443188667297363,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.858780601502344
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.7,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.798942565917969,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.64864362302817
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.7,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.795778274536133,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.274961683233483
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.7,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.26029109954834,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.036467178001379
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.8,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.798942565917969,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.64864362302817
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.8,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.26029109954834,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.036467178001379
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.1,
+      "Ta": 0.9,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.487712860107422,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 14.757192463273697
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.0,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -9.322745323181152,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.843333274573876
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -8.824270248413086,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.110584832595903
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.226164817810059,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.230194682518855
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -8.846610069274902,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.25977148333402
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.029537200927734,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.009364750627363
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -8.871490478515625,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.64947075289541
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.77039909362793,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.972315300053166
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.7,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.708417892456055,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.515531379322107
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.8,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.704323768615723,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.457087664835084
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.608686447143555,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.728865971318003
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.59322452545166,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.444416802499639
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.193079948425293,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.32490104126272
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.17394733428955,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.186933429206226
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.055514335632324,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.255981134069645
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.6,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.987942695617676,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.02031008019294
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.7,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.950879096984863,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.50938395057332
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.85666275024414,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.331136260927805
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.817984580993652,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.582910313485351
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.638861656188965,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.495532786546828
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.500504493713379,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.491712909292115
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.23505973815918,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.08300053707184
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.1941499710083,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.064800880652918
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.167391777038574,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.646221277234632
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.734152793884277,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.496154887585568
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.680047988891602,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.25625454750065
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.414338111877441,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.985636381475253
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.203228950500488,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.136961176573058
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.5,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.154820442199707,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.428426264484276
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.915120124816895,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.541522654121273
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.944929122924805,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.613781079245129
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.645845413208008,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.296684957950692
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.404150009155273,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.255652403922486
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.205303192138672,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.542718172284305
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.5,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -10.054949760437012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.538261607778212
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.811453819274902,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.417836750559465
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.5,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.459970474243164,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.322328130749167
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.5,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.450545310974121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.581852942745382
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.6,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -10.054949760437012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.538261607778212
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.6,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.690528869628906,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.433420855610839
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.6,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.450545310974121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.581852942745382
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.7,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -10.054949760437012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.538261607778212
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.7,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.450545310974121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.581852942745382
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.2,
+      "Ta": 0.8,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.52539348602295,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 15.059863219959722
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -8.99621868133545,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.821534390877227
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.226164817810059,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.230194682518855
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.019570350646973,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.730807792673447
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -8.906546592712402,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.96646144745274
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.77039909362793,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.972315300053166
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.569223403930664,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.99098624652089
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.7,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.502799034118652,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.502094970531465
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.490059852600098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.470314842185093
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.260807037353516,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.176840154059528
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.175148010253906,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.072826040720036
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.030689239501953,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.145087775112353
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.900801658630371,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.088109767787731
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.582393646240234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.47903809806923
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.626373291015625,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.49324379096345
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.439522743225098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.893691641326127
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.200000762939453,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.094800429418074
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.990484237670898,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.975745355094233
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.5,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.899797439575195,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.641756700057243
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.85666275024414,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.331136260927805
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.742815971374512,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.561790368553758
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.500504493713379,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.491712909292115
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.234280586242676,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.21079403283165
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.167391777038574,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.646221277234632
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.91773509979248,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.568543981046792
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.689436912536621,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.402594656224798
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.38001537322998,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.108241963415526
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.4,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.175774574279785,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.433545456844525
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.5,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.958271980285645,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.464831894142705
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.561153411865234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.432094086434281
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.5,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.311793327331543,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.45834069426123
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.6,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.915120124816895,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.541522654121273
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.6,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.205303192138672,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.542718172284305
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.3,
+      "Ta": 0.7,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.370800971984863,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 14.999105948139611
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -8.99621868133545,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.821534390877227
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -8.953764915466309,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.106494006588157
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.029537200927734,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.009364750627363
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.868419647216797,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.913490959643054
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.569223403930664,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.99098624652089
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.438006401062012,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.245584815454203
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.377007484436035,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.243869207845568
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.134761810302734,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.070090124148741
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.978279113769531,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.004901377419493
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.932310104370117,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.829532518677496
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.572273254394531,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.299683747540001
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.704323768615723,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.457087664835084
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.59322452545166,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.444416802499639
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.244808197021484,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.225276044880156
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.055514335632324,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.255981134069645
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.950879096984863,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.50938395057332
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.744175910949707,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.370271830418247
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.55887508392334,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.387058265008887
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.19821834564209,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.912568147587042
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.965926170349121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.613612268799614
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.85666275024414,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.331136260927805
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.500504493713379,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.491712909292115
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.167391777038574,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.646221277234632
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.5,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.91773509979248,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.568543981046792
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.175774574279785,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.433545456844525
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.4,
+      "Ta": 0.6,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.059674263000488,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 14.596972852923757
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -8.957723617553711,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.809335352718177
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.981720924377441,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.656208582952457
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.474740982055664,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.376414791706665
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.264269828796387,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.146138525758156
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.067164421081543,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.057139852206713
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.862728118896484,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.240411451546121
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.441149711608887,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.380099264374481
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.502799034118652,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.502094970531465
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.260807037353516,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.176840154059528
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.030689239501953,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.145087775112353
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.582393646240234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.47903809806923
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.62385082244873,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.341077381577021
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.28820514678955,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.338657051361144
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.851409912109375,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.3893731624507
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.744175910949707,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.370271830418247
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.5,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.965926170349121,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.613612268799614
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.226164817810059,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.230194682518855
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.029537200927734,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.009364750627363
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.77039909362793,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.972315300053166
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.474740982055664,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.376414791706665
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.179261207580566,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.959163973855803
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.917262077331543,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.309105714930501
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.441149711608887,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.380099264374481
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.502799034118652,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.502094970531465
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.175148010253906,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.072826040720036
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.582393646240234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.47903809806923
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.704323768615723,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.457087664835084
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.950879096984863,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.50938395057332
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.6,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -7.791208744049072,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 14.465372979921192
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.953764915466309,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.106494006588157
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.868419647216797,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.913490959643054
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.285446166992188,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.07382873549852
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.101628303527832,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.089055952185173
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.664198875427246,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.188047870465342
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.486549377441406,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.54109293957559
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.83603286743164,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.487283238084704
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.7,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -7.635315895080566,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 14.200173318522207
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.8,
+      "Ta": 0.0,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.322745323181152,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.843333274573876
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.8,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.029537200927734,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.009364750627363
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.8,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.8,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.285446166992188,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.07382873549852
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.8,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.664198875427246,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.188047870465342
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.8,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -7.398892402648926,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 14.192051711562351
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.9,
+      "Ta": 0.0,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.322745323181152,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.843333274573876
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.9,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.63931941986084,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.836498526342696
+  },
+  {
+    "composition": {
+      "Hf": 0.0,
+      "Zr": 0.9,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -7.328890323638916,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 13.717822112183054
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -9.614127159118652,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.27492703726241
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.924544334411621,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.16151790826809
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.678291320800781,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.058826433451891
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.672859191894531,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.847458143558105
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.541657447814941,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.010016462650796
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.437009811401367,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.090217691251587
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.7,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.375287055969238,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.901006653102536
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.8,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.202168464660645,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.387612698107425
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.0,
+      "C": 0.9,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.262869834899902,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 8.837737633723492
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -10.14914321899414,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.187885530705252
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -10.13536548614502,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.566490141641935
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.050288200378418,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.598719965042195
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.836085319519043,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.44266303454785
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.75733470916748,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.327297225217526
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.632075309753418,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.213768628053925
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.6,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.623104095458984,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.146068793591473
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.7,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.350198745727539,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.898254442935569
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.1,
+      "C": 0.8,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.361180305480957,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.311616059444042
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -10.178984642028809,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.571205990583874
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.225139617919922,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.493723595022697
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.11569595336914,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.339313914459714
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.886102676391602,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.370686421600961
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.791378021240234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.433114741960376
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.5,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.712458610534668,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.119838005199563
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.6,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.648822784423828,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.116444820735296
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.2,
+      "C": 0.7,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.48072624206543,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.059111768318274
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.016090393066406,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.45640934611678
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.124039649963379,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.528468752526818
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.995817184448242,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.195020727808147
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.740508079528809,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.28028344784062
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.620186805725098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.230788074414521
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.61441421508789,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.00354548928545
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.3,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.40182876586914,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.612486461948667
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.248682022094727,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.575608459936399
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -10.157665252685547,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.751209467146133
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.940675735473633,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.258779700937293
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.818474769592285,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.153139335043493
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.4,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.650504112243652,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.19147210354092
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -10.149765968322754,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.556318199105187
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -10.102347373962402,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.505369821183013
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.870146751403809,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.352361589810828
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.780648231506348,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.194820594615392
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.5,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.307140350341797,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.812204648363055
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.6,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -10.149765968322754,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.556318199105187
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.6,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -10.06490707397461,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.296314104967289
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.6,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.909887313842773,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.420793266036647
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.6,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.307140350341797,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.812204648363055
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.7,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.92741870880127,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.54033094992538
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.7,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -10.017023086547852,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.198644089887258
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.7,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.49374008178711,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.872195587503802
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.8,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.92741870880127,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.54033094992538
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.8,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.49374008178711,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.872195587503802
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.0,
+      "Ta": 0.9,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.65993881225586,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 14.72771962606647
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.0,
+      "N": 0.8
+    },
+    "formation_energy_eV_per_atom": -9.662835121154785,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.989622831851609
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.475850105285645,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.978147167939929
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.40966510772705,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.178217127513058
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.189927101135254,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.562796918194064
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.194589614868164,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.90857956061114
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.079214096069336,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.81901550364519
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.094808578491211,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.847337326117033
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.7,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.879510879516602,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.625064938749029
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.0,
+      "C": 0.8,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.91866397857666,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.506612571763101
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.808228492736816,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.537047484716501
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.70266056060791,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.515681682460542
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.612316131591797,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.461584670929412
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.43824577331543,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.14011172747117
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.345827102661133,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.160351529514479
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.190667152404785,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.342635045258008
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.6,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.171786308288574,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.029028348019903
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.1,
+      "C": 0.7,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.989161491394043,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.551935626043427
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -10.076566696166992,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.188280351641223
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.879687309265137,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.690792440557715
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.802671432495117,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.487925222986634
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.675797462463379,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.590729792821113
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.417155265808105,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.206049796939299
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.352499961853027,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.102775676960299
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.2,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.36474609375,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.090035557752541
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -10.008339881896973,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.226174278959915
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -10.077218055725098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.486412790326792
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.83536148071289,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.201626931751072
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.576656341552734,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.166778834109829
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.506339073181152,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.033034665935384
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.3,
+      "C": 0.5,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.283670425415039,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.377056277737012
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -10.055977821350098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.449310458469437
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -10.051427841186523,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.622683535249179
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.806846618652344,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.430777613961508
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.59566879272461,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.246330749951822
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.4,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.364917755126953,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.549413284101396
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -10.055977821350098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.449310458469437
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.973264694213867,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.427900729981898
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.590226173400879,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.261895579940216
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.5,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.364917755126953,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.549413284101396
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.6,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -10.157812118530273,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.592313543806144
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.6,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.667197227478027,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.20105807598695
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.6,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.430899620056152,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.642821852105191
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.7,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -10.157812118530273,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.592313543806144
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.7,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.430899620056152,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.642821852105191
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.1,
+      "Ta": 0.8,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.564996719360352,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 15.02357145623421
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.0,
+      "N": 0.7
+    },
+    "formation_energy_eV_per_atom": -9.31971549987793,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.739223420507086
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.358137130737305,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.014615446585811
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.4263334274292,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.110043286815507
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.063828468322754,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.905097650561654
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -8.991765975952148,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.054438236290995
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.954943656921387,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.996753445128617
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.751129150390625,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.770858038459531
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.0,
+      "C": 0.7,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.789493560791016,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.289150766437881
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.687552452087402,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.429045279300787
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.61983871459961,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.35663991022271
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.43718433380127,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.168182691095847
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.29122543334961,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.134231677046204
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.098275184631348,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.311974976812667
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.047505378723145,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.082299198455093
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.1,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.980335235595703,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.657354295967968
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.905098915100098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.347079498752196
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.743095397949219,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.489108556203337
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.611177444458008,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.097584044305798
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.387639045715332,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.053773108253358
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.255995750427246,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.955089960894272
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.2,
+      "C": 0.5,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.170524597167969,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.356908966978537
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.95656967163086,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.197655654432863
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.82651424407959,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.696321757065364
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.597564697265625,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.520313688984057
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.413374900817871,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.230439397078182
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.3,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.201674461364746,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.41660653209956
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.908428192138672,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.424019319685017
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.802104949951172,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.43582071055602
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.560868263244629,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.042537001940925
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.4,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.177094459533691,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.426052769164087
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.5,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.972200393676758,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.261950825695369
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.5,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.618526458740234,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.303289771107924
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.5,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.256404876708984,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.35431392462169
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.6,
+      "C": 0.0,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -10.045149803161621,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.461733553206688
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.6,
+      "C": 0.1,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.346868515014648,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.23612260548595
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.2,
+      "Ta": 0.7,
+      "C": 0.0,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.517646789550781,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 15.099738238610465
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.0,
+      "N": 0.6
+    },
+    "formation_energy_eV_per_atom": -9.284255027770996,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.8988705668932
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.1,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.25035285949707,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.093265537304603
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.2,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.105740547180176,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.163846849023534
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.3,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.135639190673828,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.99012253157653
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.4,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -8.879331588745117,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.02347128048089
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.5,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -8.750995635986328,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.68938072887995
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.0,
+      "C": 0.6,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.793891906738281,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.388728651114162
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.0,
+      "N": 0.5
+    },
+    "formation_energy_eV_per_atom": -9.558365821838379,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.64507065997432
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.1,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.500307083129883,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.284105392996475
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.2,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.287105560302734,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.113732708230925
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.3,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.087960243225098,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.117957194878272
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.4,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.048925399780273,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.048192933037148
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.1,
+      "C": 0.5,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.850272178649902,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.570078955084078
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.0,
+      "N": 0.4
+    },
+    "formation_energy_eV_per_atom": -9.779308319091797,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.469677574427243
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.1,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.623881340026855,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.443897040782513
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.2,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.45048713684082,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.307260033722185
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.3,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.017531394958496,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.30921801999035
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.2,
+      "C": 0.4,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -8.808207511901855,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.572632024887746
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.0,
+      "N": 0.3
+    },
+    "formation_energy_eV_per_atom": -9.953680992126465,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.274773690040798
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.1,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -9.600034713745117,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.263941751993016
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.2,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.362117767333984,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.0532070242614
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.3,
+      "C": 0.3,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.105422973632812,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.591409363795314
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.4,
+      "C": 0.0,
+      "N": 0.2
+    },
+    "formation_energy_eV_per_atom": -10.009562492370605,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.391340287938336
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.4,
+      "C": 0.1,
+      "N": 0.1
+    },
+    "formation_energy_eV_per_atom": -9.60518741607666,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 11.54595209796651
+  },
+  {
+    "composition": {
+      "Hf": 0.1,
+      "Zr": 0.3,
+      "Ta": 0.4,
+      "C": 0.2,
+      "N": 0.0
+    },
+    "formation_energy_eV_per_atom": -9.220747947692871,
+    "e_above_hull_eV_per_atom": null,
+    "relaxed_lattice_constant_A": 10.60551733581187
+  }
+]
